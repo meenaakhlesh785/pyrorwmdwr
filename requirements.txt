@@ -1,4 +1,14 @@
 Flask 
 Gunicorn
 pyTelegramBotAPI
+urllib3
+aiohttp
+hachoir
+asyncio
+requests
+datetime
 pyrogram
+tgcrypto
+oauth2client
+html2markdown
+python-decouple

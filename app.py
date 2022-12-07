@@ -4,7 +4,7 @@ import telebot
 import logging
 import os
 import pyrogram
-from pyrogram import Client
+from pyrogram import Client,filters
  
  
 logging.basicConfig(level=logging.DEBUG,

@@ -44,11 +44,11 @@ if __name__ == "__main__":
     api_hash=API_HASH,#Config.API_HASH,
     #plugins=plugins, 
     )
-  app.run()
   #threading.Thread(target=runAutoList, name='run_server_time', daemon=True).start()
   #server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
   #server.run(debug=True,host="0.0.0.0", port=int(os.environ.get('PORT', 8080)))
   server.run(debug=True,host="0.0.0.0", port=int(os.environ.get('PORT', 1000)))
+  app.run()
  
 
 #if __name__=='__main__':
